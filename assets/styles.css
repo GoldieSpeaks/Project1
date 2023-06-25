@@ -1,6 +1,91 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+  }
+
+html, body{
+ margin: 0px; padding: 0px;
+}
+.navigation{
+    background-color: #2B63D9;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px white;
+    margin: 0px;
+}
+.navigation-buttons{
+    text-decoration: none;
+}
+.nav-button{
+  text-decoration: none;
+  color:white;
+  padding-right: 15px;
+}
+.login{
+ text-decoration: none;
+ color: white;
+ padding-right: 15px;
+}
+.login-buttons{
+    padding-right: 50px;
+}
+.logo{
+    padding-left: 50px;
+    
+}
+.container-1{
+    background-color: #2B63D9;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side{
+    max-width: 50%;
+    padding-left: 50px;
+    
+}
+
+.top-side{
+    gap: 10%;
+}
+.heading{
+    padding-bottom: 25px;
+    font-size: 52px;
+}
+.texting{
+    padding-bottom: 50px;
+}
+.texting-2{
+    padding-top: 25px;
+}
+.button-2{
+    background-color: #437EF7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+}
+.login-1{
+    text-decoration: none;
+    background-color: #437EF7;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
 
 }
-.class{
-    
+.bottom-side{
+    padding-top: 65px;
 }
